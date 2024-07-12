@@ -17,7 +17,7 @@ export default function TitleAndContentWrapper({children}) {
             {firstChild}
         </div>
         <hr/>
-        <div style={{marginTop:'15px'}}>
+        <div style={{marginTop:'15px', marginBottom:'10px'}}>
         {secondChild}
         </div>       
     </div>
