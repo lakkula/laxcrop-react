@@ -1,13 +1,20 @@
 import React from 'react'
+import TimeSectionWrapper from '../../components/currentTimeSection/TimeSectionWrapper'
+import TimeSectionTitle from '../../components/currentTimeSection/TimeSectionTitle'
+import DateTime from '../../components/currentTimeSection/DateTime'
 
 export default function CurrentTimeSection() {
   return (
-    <div style={{display:'flex', gap:'10px'}}>
-      <div>
-      <p style={{color:'gray'}}>Current time</p>
-      <p>26 Sept 2023, 12:10 PM</p>
+    <div>
+      <TimeSectionWrapper>
+      <div style={{display:'flex', alignItems:'center', gap:'20px'}}>
+        <div>
+          <TimeSectionTitle/>
+          <DateTime/>
+        </div>
+        <img src='' alt='clock'/>
       </div>
-      <img src='' alt='clock'/>
+      </TimeSectionWrapper> 
     </div>
   )
 }
