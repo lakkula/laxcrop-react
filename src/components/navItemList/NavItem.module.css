@@ -1,0 +1,7 @@
+.navitem{
+    font-weight: bold;
+}
+
+.navitem:hover{
+    color: blue;
+}
